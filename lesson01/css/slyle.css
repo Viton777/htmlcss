@@ -3,20 +3,17 @@
     padding: 0;
 }
 
-html,
-body {
-    height: 100%;
-}
-
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* надо проработать
 .container {
     margin: 0 auto;
     min-width: 1280px;
     min-height: 100%;
 }
+*/
 
 header {
     height: 323px;
@@ -105,6 +102,6 @@ pluses p {
 .pluses img {
     float: left;
     margin-top: 3px;
-    margin-left: 50px;
-    
+    margin-left: 10px;
+    margin-right: 10px;
 }
