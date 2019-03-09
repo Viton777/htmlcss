@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1280px;
+}
+
+.main-header {
+    width: 100%;
+    min-height: 323px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #445161;
+}
+
+.main-header-wrapper {
+    float: left;
+}
+
+.main-header-title {
+    margin: 0;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.main-header-list {
+    list-style-type: none;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.main-header-list-item {
+    position: relative;
+}
+
+.main-header-list-item:before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 19px;
+    position: absolute;
+    top: 7px;
+    left: -37px;
+    background-image: url(../img/check_icon.png);
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main-header-product-photo {
+    display: block;
+    background-color: #ffffff;
+    width: 469px;
+    height: 214px;
+    float: right;
+}
+
+.about {
+    padding: 50px;
+    box-sizing: border-box;
+    min-height: 323px;
+    width: 100%;
+}
+
+.about-wrapper {
+    float: left;
+    width: 649px;
+}
+
+.about-video {
+    display: block;
+    background-color: #ffffff;
+    width: 430px;
+    height: 245px;
+    float: right;
+}
+
+.about-title {
+    font-family: Arial;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+}
+
+.about-wrapper p {
+    font-family: Arial;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.pluses {
+    padding: 50px;
+    box-sizing: border-box;
+    min-height: 323px;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.pluses-title, .screenshots-title {
+    font-family: Arial;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.flex-box p {
+    font-family: Arial;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-direction-row {
+    flex-direction: row;
+}
+
+.flex-direction-column {
+    flex-flow: column wrap;
+}
+
+.white-plus {
+    margin-top: 21px;
+    margin-bottom: 62px;
+    margin-right: 10px;
+    background-image: url(../img/Shape.png);
+    background-size: 50px 50px;
+}
+
+.screenshots {
+    padding: 50px;
+    box-sizing: border-box;
+    min-height: 323px;
+    width: 100%;
+}
+
+.screen-img {
+    margin-top: 20px;
+}
