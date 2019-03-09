@@ -151,6 +151,13 @@ body {
     background-size: 50px 50px;
 }
 
+.screenshots {
+    padding: 50px;
+    box-sizing: border-box;
+    min-height: 323px;
+    width: 100%;
+}
+
 .screen-img {
     margin-top: 20px;
 }
