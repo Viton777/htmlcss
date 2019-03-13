@@ -1,8 +1,10 @@
-body {
+* {
     margin: 0;
+    padding: 0;
 }
 
 .container {
+    margin: 0 auto;
     width: 1280px;
 }
 
@@ -16,6 +18,7 @@ body {
 
 .main-header-wrapper {
     float: left;
+    margin-left: 50px;
 }
 
 .main-header-title {
@@ -37,6 +40,7 @@ body {
     line-height: 36px;
     text-align: left;
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+    margin-left: 40px;
 }
 
 .main-header-list-item {
@@ -112,7 +116,8 @@ body {
     background-color: #f5f5f5;
 }
 
-.pluses-title, .screenshots-title {
+.pluses-title,
+.screenshots-title {
     font-family: Arial;
     color: #445161;
     font-size: 30px;
